@@ -1,0 +1,22 @@
+// move down (option command ↓)
+
+var def = [NSUserDefaults standardUserDefaults]
+var key = "sk_offset"
+var os = [def objectForKey:key]
+if(os == nil) {
+	os = [doc askForUserInput:"Offset value?" initialValue:"8"]
+	[def setObject:os forKey:key]//set defaults to this value
+}
+os = Number(os)
+
+for (var i=0; i<selection.count(); i++) {
+	var layer = selection[i];
+	var r = [layer absoluteRect];
+	var x = [r rulerX]
+	var y = [r rulerY]	
+	
+		
+	[r setRulerY: y + os];
+}
+
+//(shift option ↓) ← ↑ →
