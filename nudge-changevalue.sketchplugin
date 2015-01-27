@@ -1,9 +1,9 @@
-//set offset value for up down left right commands (option command 0)
+//set offset value for up down left right commands (ctrl shift 0)
 
 var def = [NSUserDefaults standardUserDefaults]
 var key = "sk_offset"
 var os = [def objectForKey:key]
-if(os == nil) os = "8" //retrieve value from defaults, if none set starting at 2.0
+if(os == nil) os = "8" //retrieve value from defaults, if none set starting at 8
 
 var input = [doc askForUserInput:"Offset value?" initialValue:os]
 [def setObject:input forKey:key]//set defaults to this value
