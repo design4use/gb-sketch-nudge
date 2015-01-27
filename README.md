@@ -1,5 +1,6 @@
 # gb-sketch-nudge
 Quick nudge by a customizable number of pixels
+![](https://scontent-2.2914.fna.fbcdn.net/hphotos-xpa1/v/t1.0-9/1509909_10153616010600550_7034775083443746872_n.jpg?oh=380f7edbd41fdde69064249eb69e3eee&oe=556234BA)
 
 ## Updates
 ##### Jan 27, 2015
