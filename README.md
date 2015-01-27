@@ -1,6 +1,12 @@
 # gb-sketch-nudge
 Quick nudge by a customizable number of pixels
 
+## Updates
+##### Jan 27, 2015
+* Changing shortcut to ctrl shift to avoid conflict with move to back/front
+* Auto-updating inspector
+
+## Description
 For those who want more then just nudging by 1px (arrow keys) or 10px (shift + arrow keys). For example in a recent project things were usually moved in multiples of 16px. This plugin saved hours.
 
 ctrl-shift plus  ↓ ← ↑ → to nudge the selection by n pixels, where n is any number.
