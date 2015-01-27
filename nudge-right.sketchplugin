@@ -1,4 +1,4 @@
-// move to the left (option command →)
+// move to the left (ctrl shift →)
 
 var def = [NSUserDefaults standardUserDefaults]
 var key = "sk_offset"
@@ -15,8 +15,7 @@ for (var i=0; i<selection.count(); i++) {
 	var x = [r rulerX]
 	var y = [r rulerY]	
 	
-	[r setRulerX: x + Number(os)];	
+	[r setRulerX: x + Number(os)];
+	[doc reloadInspector];
 
 }
-
-//(shift option ↓) ← ↑ →
