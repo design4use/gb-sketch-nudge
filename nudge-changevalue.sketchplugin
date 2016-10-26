@@ -1,4 +1,4 @@
-//set offset value for up down left right commands (ctrl shift 0)
+//set offset value for up down left right commands (ctrl shift =)
 
 var def = [NSUserDefaults standardUserDefaults]
 var key = "sk_offset"
